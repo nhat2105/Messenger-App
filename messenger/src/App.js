@@ -112,3 +112,9 @@ function ChatMessage(props) {
 }
 
 export default App;
+
+//Todo: 
+//Different chat rooms
+//User information
+//Time sent of message display added
+//Delete message added
