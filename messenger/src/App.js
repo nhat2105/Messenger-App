@@ -104,7 +104,7 @@ function ChatMessage(props) {
   return (
     <>
       <div className={`message ${messageClass}`}>
-        <img src={photoURL || 'https://th.bing.com/th/id/OIP.Yv-0qyyeHsZsR78kxgROZAHaHa?rs=1&pid=ImgDetMain'} />
+        <img width={50} height={50} src={photoURL} alt='user-image' />
         <p>{text}</p>
       </div>
     </>
